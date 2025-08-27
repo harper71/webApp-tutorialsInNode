@@ -1,0 +1,20 @@
+{
+  "name": "express-tutorial",
+  "version": "1.0.0",
+  "description": "an express learning tutorial",
+  "main": "app.js",
+  "scripts": {
+    "start": "node express.js",
+    "dev": "nodemon express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prince azuka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
