@@ -20,7 +20,6 @@ const verifyCallback = async (username, password, cb) => {
       return cb(null, false, { message: "Invalid password" });
     }
   } catch (error) {
-    
     console.error(error, );
     return cb(error)
   }
